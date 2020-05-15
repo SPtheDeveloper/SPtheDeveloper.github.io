@@ -142,3 +142,9 @@ html, body {
           opacity: 1;
         }
       }
+
+      /* Portrait and Landscape */
+      @media(max-width:1300px){
+        blockquote:before{
+            color: black;
+        }}
