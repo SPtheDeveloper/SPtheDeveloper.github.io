@@ -3,6 +3,8 @@ function animate() {
   }
   
   document.addEventListener('click', animate);
+
+onclick="location.href='/';"
   
   setTimeout(animate, 0);
 
