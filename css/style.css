@@ -144,7 +144,7 @@ html, body {
       }
 
       /* Portrait and Landscape */
-      @media(max-width:1300px){
+      @media(max-width:800px){
         blockquote:before{
             color: black;
         }}
