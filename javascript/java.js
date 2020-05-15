@@ -4,7 +4,7 @@ function animate() {
   
   document.addEventListener('click', animate);
 
-onclick="location.href='/';"
+onclick="location.href='hackerjacker.co.uk';"
   
   setTimeout(animate, 0);
 
