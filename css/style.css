@@ -142,3 +142,8 @@ html, body {
           opacity: 1;
         }
       }
+
+@media(max-width:1300px){
+blockquote{
+        font: italic 900 30px/1 Montserrat, sans-serif;
+}}
