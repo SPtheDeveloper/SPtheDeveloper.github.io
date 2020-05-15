@@ -3,8 +3,9 @@ function animate() {
   }
   
   document.addEventListener('click', animate);
-
-onclick="location.href='hackerjacker.co.uk';"
   
   setTimeout(animate, 0);
+
+
+window.addEventListener('click', ()=> {window.location.href="index.html"})
 
