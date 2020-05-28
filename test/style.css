@@ -68,7 +68,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     color: #f4f4f4;
-    font-size: 1.5vw;
+    font-size: 25px;
   }
   
   .navbar ul li a:hover {
@@ -112,3 +112,8 @@ a {
   display: inline;
   font-size: 300%;
  }
+
+ @media(max-width:1300px){
+  .navbar ul li a {
+    font-size: 15px;
+  }}
