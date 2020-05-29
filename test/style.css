@@ -55,7 +55,7 @@ body{
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 10px;
   }
   
