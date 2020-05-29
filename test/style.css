@@ -45,7 +45,6 @@ body{
     position: fixed;
     display: flex;
     margin: 0em;
-    z-index: 1;
     width: 100%;
     background-color: black;
   }
