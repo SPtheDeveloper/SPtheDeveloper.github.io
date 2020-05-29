@@ -115,4 +115,7 @@ a {
   font-size: 100%;
  }
 
-
+ @media(max-width:1300px){
+  .navbar ul {
+    font-size: 3vw;
+  }}
