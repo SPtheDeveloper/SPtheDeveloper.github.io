@@ -43,10 +43,9 @@ body{
 
 .navbar {
     position: fixed;
-    margin: 0em;
-    top: 0;
-    z-index: 1;
     display: flex;
+    margin: 0em;
+    z-index: 1;
     width: 100%;
     background-color: black;
   }
@@ -55,7 +54,7 @@ body{
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 10px;
   }
   
