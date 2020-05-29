@@ -54,7 +54,7 @@ body{
     list-style: none;
     width: 100%;
     justify-content: space-around;
-    font-size: 10px;
+    font-size: 1.5vw;
   }
   
   
@@ -109,7 +109,3 @@ a {
   font-size: 100%;
  }
 
- @media(min-width:1300px){
-  .navbar ul {
-    font-size: 20px;
-  }}
