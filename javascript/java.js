@@ -1,10 +1,12 @@
-function animate() {
-    document.querySelector('blockquote').classList.toggle('animate');
+$('.navbar a').on('click', function (e) {
+  if (this.hash !== '') {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body')
+      .animate({
+        scrollTop: $(hash).offset().top
+      },800);
   }
-  
-  document.addEventListener('click', animate);
-  
-  setTimeout(animate, 0);
-
-
-
+});
