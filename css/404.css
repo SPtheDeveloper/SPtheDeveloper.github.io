@@ -1,0 +1,17 @@
+body{
+    height: calc(100vh - 8em);
+    margin: 0em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: rgb(25,25,25);
+    -ms-overflow-style: none;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1000%;
+}
+
+h3 {
+    font-size: 200%;
+}
