@@ -10,3 +10,12 @@ $('.navbar a').on('click', function (e) {
       },800);
   }
 });
+
+var options = {
+  strings: ['Jack', 'a skid', 'a gamer', 'an elon musk fan'],
+  typeSpeed: 150,
+  backSpeed: 60,
+  loop: true,
+};
+
+var typed = new Typed('#type', options);
