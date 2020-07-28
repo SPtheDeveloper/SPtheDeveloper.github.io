@@ -6,8 +6,8 @@ html{
   min-height: 100%;
 }
 body{
-  height: calc(100vh - 8em);
-  margin: 0em;
+  height: calc(100vh - 8rem);
+  margin: 0rem;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);
@@ -41,7 +41,7 @@ body{
     list-style: none;
     width: 100%;
     justify-content: space-around;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
   }
   
   
@@ -68,13 +68,13 @@ section {
     padding-bottom: 10px;
     padding-top: 0;
     margin: 0em;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 
 
  p {
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 ::-webkit-scrollbar {
