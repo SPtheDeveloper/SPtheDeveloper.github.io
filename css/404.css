@@ -1,7 +1,7 @@
 body{
     height: calc(100vh - 8em);
     color: rgba(255,255,255,.75);
-    font-family: 'Anonymous Pro', Arial, Helvetica, sans-serif;  
+    font-family: 'Anonymous Pro'; 
     background-color: rgb(25,25,25);
     -ms-overflow-style: none;
     text-align: center;
