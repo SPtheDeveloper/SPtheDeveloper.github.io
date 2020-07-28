@@ -101,3 +101,17 @@ a {
   display: inline;
   font-size: 100%;
  }
+
+ .btn {
+  background-color: rgba(255,255,255,.75);;
+  border: none; 
+  color: black;
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+
+.btn:hover {
+  background-color: grey;
+}
