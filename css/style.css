@@ -9,7 +9,7 @@ body{
   height: calc(100vh - 8rem);
   margin: 0rem;
   color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
+  font-family: 'Anonymous Pro';  
   background-color: rgb(25,25,25);
   -ms-overflow-style: none;
 }
