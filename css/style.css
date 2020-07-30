@@ -55,6 +55,10 @@ section {
     font-size: 2rem;
 }
 
+#gallery {
+  height: 30vh;
+}
+
 .lead {
   width: 80%;
   line-height: 1.2;
