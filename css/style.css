@@ -52,7 +52,7 @@ section {
     padding-bottom: 10px;
     padding-top: 0;
     margin: 0em;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .lead {
@@ -74,24 +74,23 @@ a {
   text-transform: uppercase;
 }
 
-#contact {
-  display: inline;
-}
-
-#contact ul {
+#home ul {
   list-style-type: none;
   padding-left: 0;
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
-#contact ul li { 
+#home ul li { 
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   padding: 10px;
  }
+
 
  .btn {
   background-color: rgba(255,255,255,.75);;
