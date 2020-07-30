@@ -11,11 +11,11 @@ $('.navbar a').on('click', function (e) {
   }
 });
 
-var options = {
+const options = {
   strings: ['Jack', 'a hacker', 'a gamer', 'a "coder"', 'a confused being'],
   typeSpeed: 150,
   backSpeed: 60,
   loop: true,
 };
 
-var typed = new Typed('#type', options);
+const typed = new Typed('#type', options);
