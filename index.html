@@ -10,6 +10,7 @@
     href="https://hackerjacker.co.uk/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <script src="https://kit.fontawesome.com/52246bdb5a.js" crossorigin="anonymous"></script>
   </head>
 <body>
@@ -17,7 +18,7 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>
     <section id="home">
@@ -42,13 +43,33 @@
         <p class="lead">
             I am a student in the UK with a passion for all things computers and Infosec. I am interested in physical security and social engineering. I enjoy spending time writing not so good code and doing CTFs. I post occasionally on twitter about things that make me laugh. I also enjoy playing video games just for fun. All my socials are linked above if you want to contact me. Oh, and there is one more thing that defines me, <em><strong>I'm a Mac user. </strong></em></p>
     </section>
-    <section id="gallery">
-        <h1>gallery</h1>
-        <p class="lead">Coming Soon :)</p>
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Send me a message by using this form. If you want to send something sensitive please encrypt your message with my <a href="pgp">PGP</a> key.</p>
+        <form action="https://send.pageclip.co/r7pbdCddSCBJpMKyCpXmndgQcAp9scCE/contact" class="pageclip-form" method="post">
+            <label class="x one">
+
+                <input type="text" id="name" required/>
+                <span class="placeholder">Name</span>
+            </label>
+            <label class="x one">
+
+                <input type="email" id="email" required/>
+                <span class="placeholder">Email</span>
+            </label>
+            <label class="x">
+                <textarea id="body" required></textarea>
+            </label>
+            <button class="btn button pageclip-form__submit" type="submit">
+                <span>Submit</span>
+            </button>
+        </form>
+
     </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="javascript/java.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
 

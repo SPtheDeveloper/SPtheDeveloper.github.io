@@ -68,11 +68,6 @@ section h1 {
   margin-top: 80px;
 }
 
-#gallery {
-  height: 100vh;
-  justify-content: flex-start;
-}
-
 .lead {
   width: 80%;
   line-height: 1.2;
@@ -88,7 +83,8 @@ section h1 {
 
 a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
+    font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -116,10 +112,77 @@ a {
   color: black;
   padding: 12px 16px;
   font-size: 16px; 
-  cursor: pointer; 
+  cursor: pointer;
+     border-radius: 3px;
 }
-
 
 .btn:hover {
   background-color: grey;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.x {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.x input, textarea {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(0,0,0,0.81);
+    padding: 12px;
+    border-radius: 3px;
+    width: 500px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+}
+
+.x textarea {
+    resize: vertical;
+    height: 300px;
+    width: 500px;
+}
+
+.x .placeholder {
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: white;
+    alignment: center;
+    transition:
+            top 0.3s ease,
+            color 0.3s ease,
+            font-size 0.3s ease;
+}
+
+.x input.dirty + .placeholder,
+.x input:valid + .placeholder,
+.x input:focus + .placeholder {
+    top: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.x textarea.dirty + .placeholder,
+.x textarea:valid + .placeholder,
+.x textarea:focus + .placeholder {
+    top: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+#contact p{
+    font-size: 1rem;
+}
+
