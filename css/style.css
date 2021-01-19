@@ -126,7 +126,7 @@ a {
 
 .x {
     position: relative;
-    font-size: 14px;
+    font-size: 1rem;
     padding-top: 20px;
     margin-bottom: 5px;
     display: block;
@@ -141,7 +141,7 @@ a {
     background: rgba(0,0,0,0.81);
     padding: 12px;
     border-radius: 3px;
-    width: 500px;
+    width: 40rem;
     outline: none;
     font-size: 14px;
     color: white;
@@ -149,8 +149,8 @@ a {
 
 .x textarea {
     resize: vertical;
-    height: 300px;
-    width: 500px;
+    height: 20rem;
+    width: 40rem;
 }
 
 .x .placeholder {
