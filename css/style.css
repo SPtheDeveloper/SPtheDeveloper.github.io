@@ -4,9 +4,8 @@ html{
   min-height: 100%;
 }
 body{
-  min-height: 100vh
-  margin-left: auto;
-  margin-right: auto;
+
+    margin: auto;
   color: rgba(255,255,255,.75);
   font-family: 'Roboto', sans-serif;
   background-color: rgb(25,25,25);
@@ -19,7 +18,7 @@ body{
 .navbar {
     position: fixed;
     display: flex;
-    margin: 0em;
+    margin: 0;
     z-index: 1;
     width: 100%;
     background-color: black;
@@ -46,7 +45,7 @@ body{
   }
 
 .button-list ul li {
-    padding: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .button-list ul {
@@ -60,7 +59,7 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 0;
     margin: 0em;
     font-size: 2rem;
@@ -132,7 +131,7 @@ a {
     padding-top: 20px;
     margin-bottom: 5px;
     display: block;
-    width: 100%
+    width: 80%
 }
 
 .x input, textarea {
