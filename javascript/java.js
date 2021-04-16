@@ -14,7 +14,7 @@ $('.navbar a').on('click', function (e) {
 const options = {
   strings: ['Jack', 'a hacker', 'a gamer', 'a developer'],
   typeSpeed: 150,
-  backSpeed: 60,
+  backSpeed: 90,
   loop: true,
 };
 
