@@ -12,7 +12,7 @@ $('.navbar a').on('click', function (e) {
 });
 
 const options = {
-  strings: ['Jack', 'a hacker', 'a gamer', 'a "coder"'],
+  strings: ['Jack', 'a hacker', 'a gamer', 'a developer'],
   typeSpeed: 150,
   backSpeed: 60,
   loop: true,
