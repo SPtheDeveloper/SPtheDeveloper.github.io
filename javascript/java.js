@@ -12,9 +12,9 @@ $('.navbar a').on('click', function (e) {
 });
 
 const options = {
-  strings: ['^1000 Jack', '^1000 a hacker', '^1000 a gamer', '^1000 a developer'],
-  typeSpeed: 150,
-  backSpeed: 90,
+  strings: ['Jack ^1000', ' a hacker ^1000', ' a gamer ^1000', ' a developer ^1000'],
+  typeSpeed: 160,
+  backSpeed: 120,
   loop: true,
 };
 

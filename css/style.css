@@ -41,7 +41,7 @@ body{
     margin: 0;
     z-index: 1;
     width: 100%;
-    background-color: black;
+    background-color: rgb(25,25,25);
   }
   
   .navbar ul {
@@ -81,8 +81,8 @@ section {
     text-align: left;
     min-height: 100vh;
     padding-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 1em;
     font-size: 2rem;
 }
