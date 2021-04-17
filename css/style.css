@@ -125,15 +125,16 @@ a {
     box-sizing: border-box;
 }
 
-.x {
+.contact {
     position: relative;
     font-size: 1rem;
     padding-top: 20px;
     margin-bottom: 5px;
     display: block;
+
 }
 
-.x input, textarea {
+.contact input, textarea {
     border: none;
     -webkit-appearance: none;
     -ms-appearance: none;
@@ -142,24 +143,28 @@ a {
     background: rgba(0,0,0,0.81);
     padding: 12px;
     border-radius: 3px;
-    width: 40rem;
     outline: none;
     font-size: 14px;
     color: white;
+    width: 60em;
 }
 
-.x textarea {
+@media only screen and (max-width: 900px) {
+    .contact input, textarea {
+        width: 35em;
+    }
+}
+
+.contact textarea {
     resize: vertical;
     height: 20rem;
-    width: 40rem;
 }
 
-.x .placeholder {
+.contact .placeholder {
     position: absolute;
     left: 12px;
-    top: calc(50% + 10px);
+    top: 43px;
     transform: translateY(-50%);
-    color: white;
     alignment: center;
     transition:
             top 0.3s ease,
@@ -167,20 +172,18 @@ a {
             font-size 0.3s ease;
 }
 
-.x input.dirty + .placeholder,
-.x input:valid + .placeholder,
-.x input:focus + .placeholder {
+.contact input.dirty + .placeholder,
+.contact input:valid + .placeholder,
+.contact input:focus + .placeholder {
     top: 10px;
     font-size: 10px;
-    color: white;
 }
 
-.x textarea.dirty + .placeholder,
-.x textarea:valid + .placeholder,
-.x textarea:focus + .placeholder {
+.contact textarea.dirty + .placeholder,
+.contact textarea:valid + .placeholder,
+.contact textarea:focus + .placeholder {
     top: 10px;
     font-size: 10px;
-    color: white;
 }
 
 #contact p{
