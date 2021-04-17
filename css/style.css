@@ -81,8 +81,8 @@ section {
     text-align: left;
     min-height: 100vh;
     padding-top: 0;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 1em;
     font-size: 2rem;
 }
