@@ -149,7 +149,7 @@ a {
 
 form {
     width: 100%;
-    max-width: 500px;
+    max-width: 750px;
 }
 
 .contact_form {
@@ -173,15 +173,8 @@ form {
     outline: none;
     font-size: 14px;
     width: 100%;
-    max-width: 500px;
     color: rgba(255,255,255,.75);
 }
-
-/*@media only screen and (max-width: 900px) {*/
-/*    .contact_form input, textarea {*/
-/*        width: 20em;*/
-/*    }*/
-/*}*/
 
 .contact_form textarea {
     resize: vertical;
