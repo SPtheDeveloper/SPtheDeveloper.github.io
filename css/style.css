@@ -154,7 +154,7 @@ a {
     -ms-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: rgba(25,25,25);
+    background: rgb(25,25,25);
     padding: 12px;
     border-radius: 3px;
     outline: none;
