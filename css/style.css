@@ -48,6 +48,12 @@ body{
     justify-content: space-around;
     font-size: 1.5rem;
   }
+
+@media only screen and (max-width: 900px) {
+    .navbar ul {
+        font-size: 1.2rem;
+    }
+}
   
   .navbar ul li a {
     text-decoration: none;
@@ -139,6 +145,11 @@ a {
     box-sizing: border-box;
 }
 
+form {
+    width: 100%;
+    max-width: 500px;
+}
+
 .contact_form {
     position: relative;
     font-size: 1rem;
@@ -159,15 +170,16 @@ a {
     border-radius: 3px;
     outline: none;
     font-size: 14px;
-    width: 60em;
+    width: 100%;
+    max-width: 500px;
     color: rgba(255,255,255,.75);
 }
 
-@media only screen and (max-width: 900px) {
-    .contact_form input, textarea {
-        width: 20em;
-    }
-}
+/*@media only screen and (max-width: 900px) {*/
+/*    .contact_form input, textarea {*/
+/*        width: 20em;*/
+/*    }*/
+/*}*/
 
 .contact_form textarea {
     resize: vertical;
