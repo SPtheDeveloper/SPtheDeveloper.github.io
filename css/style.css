@@ -104,11 +104,19 @@ section h1 {
   font-size: 1.5rem;
 }
 
-a {
+p a {
   color: white;
   text-decoration: underline;
     font-weight: bold;
   text-transform: uppercase;
+}
+a {
+    color: rgba(255,255,255,.75);
+    text-decoration: none;
+}
+
+a:hover {
+    color: skyblue;
 }
 
 #home ul {
@@ -209,5 +217,21 @@ form {
 
 #contact p{
     font-size: 1.2rem;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+    padding-top: 10rem;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
