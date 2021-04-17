@@ -125,7 +125,7 @@ a {
     box-sizing: border-box;
 }
 
-.contact {
+.contact_form {
     position: relative;
     font-size: 1rem;
     padding-top: 20px;
@@ -134,7 +134,7 @@ a {
 
 }
 
-.contact input, textarea {
+.contact_form input, textarea {
     border: none;
     -webkit-appearance: none;
     -ms-appearance: none;
@@ -150,17 +150,17 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
-    .contact input, textarea {
+    .contact_form input, textarea {
         width: 35em;
     }
 }
 
-.contact textarea {
+.contact_form textarea {
     resize: vertical;
     height: 20rem;
 }
 
-.contact .placeholder {
+.contact_form .placeholder {
     position: absolute;
     left: 12px;
     top: 43px;
@@ -172,16 +172,16 @@ a {
             font-size 0.3s ease;
 }
 
-.contact input.dirty + .placeholder,
-.contact input:valid + .placeholder,
-.contact input:focus + .placeholder {
+.contact_form input.dirty + .placeholder,
+.contact_form input:valid + .placeholder,
+.contact_form input:focus + .placeholder {
     top: 10px;
     font-size: 10px;
 }
 
-.contact textarea.dirty + .placeholder,
-.contact textarea:valid + .placeholder,
-.contact textarea:focus + .placeholder {
+.contact_form textarea.dirty + .placeholder,
+.contact_form textarea:valid + .placeholder,
+.contact_form textarea:focus + .placeholder {
     top: 10px;
     font-size: 10px;
 }
