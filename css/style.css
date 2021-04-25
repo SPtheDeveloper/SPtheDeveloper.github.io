@@ -161,6 +161,10 @@ a:hover {
      border-radius: 3px;
 }
 
+ button {
+     margin: 1rem;
+ }
+
 .btn {
     display: inline-block;
     vertical-align: middle;
