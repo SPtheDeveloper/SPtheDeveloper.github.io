@@ -68,7 +68,7 @@ img {
   }
   
   .navbar ul li a:hover {
-    color: skyblue;
+    color: aqua;
   }
 
 .button-list ul li {
@@ -126,7 +126,7 @@ a {
 }
 
 a:hover {
-    color: skyblue;
+    color: aqua;
 }
 
 #home ul {
