@@ -58,7 +58,7 @@ body{
   .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #f4f4f4;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 100%;
   }
   
@@ -105,7 +105,7 @@ section h1 {
 }
 
 p a {
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
     font-weight: bold;
   text-transform: uppercase;
