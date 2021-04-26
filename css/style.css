@@ -131,18 +131,6 @@ h1 {
     z-index: -5;
 }
 
-.bg_small::after {
-    content: "";
-    position: absolute;
-    left: -24px;
-    bottom: -4px;
-    top: 20px;
-    right: -24px;
-    display: block;
-    background: rgb(25, 25, 25);
-    z-index: -5;
-}
-
 
 .lead {
   width: 80%;
