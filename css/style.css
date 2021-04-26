@@ -73,7 +73,7 @@ code {
   }
   
   .navbar ul li a:hover {
-    color: aqua;
+    color: #FF1A75;
   }
 
 .button-list ul li {
@@ -120,17 +120,17 @@ section h1 {
 }
 
 p a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: underline;
     font-weight: bold;
 }
 a {
-    color: rgba(255,255,255,.75);
+    color: rgba(255,255,255,.85);
     text-decoration: none;
 }
 
 a:hover {
-    color: aqua;
+    color: #FF1A75;
 }
 
 #home ul {
@@ -247,6 +247,36 @@ form {
 
 #contact p{
     font-size: 1.2rem;
+}
+
+#alert {
+    padding: 20px;
+    background-color: rgb(25,25,25);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 15px;
+    display: none;
+    opacity: 1;
+    transition: opacity 0.6s;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    font-size: 1rem;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #FF1A75;
 }
 
 footer {
