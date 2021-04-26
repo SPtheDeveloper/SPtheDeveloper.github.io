@@ -77,7 +77,7 @@ code {
   }
   
   .navbar ul li a:hover {
-    color: #FF1A75;
+    color: aqua;
   }
 
 .button-list ul li {
@@ -153,7 +153,7 @@ a {
 }
 
 a:hover {
-    color: #FF1A75;
+    color: aqua;
 }
 
 #home ul {
@@ -302,7 +302,7 @@ form {
 }
 
 .closebtn:hover {
-    color: #FF1A75;
+    color: aqua;
 }
 
 footer {
