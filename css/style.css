@@ -112,14 +112,14 @@ section p {
 h1 {
   margin-top: 80px;
     font-size: 4rem;
-    text-align: left;
+    text-align: center;
     position: relative;
 }
  h3, h2 {
     position: relative;
 }
 
-h1::after {
+section h1::after {
     content: "";
     position: absolute;
     left: -24px;
@@ -127,11 +127,11 @@ h1::after {
     top: 38px;
     right: -24px;
     display: block;
-    background: #FF1A75;
+    background: rgb(25, 25, 25);
     z-index: -5;
 }
 
-h3::after {
+section h3::after {
     content: "";
     position: absolute;
     left: -24px;
@@ -139,7 +139,7 @@ h3::after {
     top: 20px;
     right: -24px;
     display: block;
-    background: #FF1A75;
+    background: rgb(25, 25, 25);
     z-index: -5;
 }
 
