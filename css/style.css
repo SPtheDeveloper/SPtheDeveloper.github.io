@@ -12,7 +12,6 @@ body{
   -ms-overflow-style: none;
   overflow-y: scroll;
     font-size: 2rem;
-  
 }
 
 ::-webkit-scrollbar {
@@ -110,11 +109,40 @@ section p {
     line-height: 2rem;
 }
 
-section h1 {
+h1 {
   margin-top: 80px;
     font-size: 4rem;
-    text-align: center;
+    text-align: left;
+    position: relative;
 }
+ h3, h2 {
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    bottom: -4px;
+    top: 38px;
+    right: -24px;
+    display: block;
+    background: #FF1A75;
+    z-index: -5;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    bottom: -4px;
+    top: 20px;
+    right: -24px;
+    display: block;
+    background: #FF1A75;
+    z-index: -5;
+}
+
 
 .lead {
   width: 80%;
