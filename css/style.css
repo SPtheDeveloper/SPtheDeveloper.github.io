@@ -119,7 +119,7 @@ h1 {
     position: relative;
 }
 
-section h1::after {
+.bg::after {
     content: "";
     position: absolute;
     left: -24px;
@@ -131,7 +131,7 @@ section h1::after {
     z-index: -5;
 }
 
-section h3::after {
+.bg_small::after {
     content: "";
     position: absolute;
     left: -24px;
