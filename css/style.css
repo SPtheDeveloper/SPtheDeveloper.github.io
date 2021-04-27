@@ -243,6 +243,7 @@ form {
 .contact_form textarea {
     resize: vertical;
     height: 20rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact_form .placeholder {
