@@ -149,7 +149,7 @@ p a {
 a {
     color: rgba(255,255,255,.85);
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all .5s;
 }
 
 a:hover {
