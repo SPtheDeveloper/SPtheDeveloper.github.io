@@ -15,7 +15,7 @@ $('.navbar a').on('click', function (e) {
 // typed.js
 
 const options = {
-  strings: ['Jack ^1000', ' a student ^1000', ' a developer ^1000', ' a gamer ^1000'],
+  strings: ['SP ^1000', ' a student ^1000', ' a developer ^1000'],
   typeSpeed: 160,
   backSpeed: 120,
   loop: true,
