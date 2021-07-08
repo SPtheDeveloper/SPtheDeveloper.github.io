@@ -6,9 +6,9 @@ html{
 body{
 
     margin: auto;
-  color: white;
+  color: black;
   font-family: 'Roboto', sans-serif;
-  background-color: black;
+  background-color: white;
   -ms-overflow-style: none;
   overflow-y: scroll;
     font-size: 2rem;
